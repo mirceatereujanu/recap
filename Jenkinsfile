@@ -1,6 +1,6 @@
 node{
     agent{
-        additional_node
+        agent1
     }
     stage('checkout'){
         def scmVars = checkout scm
